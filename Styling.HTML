@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- CSS
+            1. Inline  <h1 style ="">
+            2. Internal  <style>   </style>
+            3. External  style.css
+          
+         -->
+
+         <h1 style="
+         color: red; 
+         font-size: 50px;
+         font-family: Arial, Helvetica, sans-serif;
+         border: 1px solid red;
+         margin-left: 20%;
+         padding-left: 50px;
+         ">Welcome</h1>
+         <p style="color: blue;">hello computers!</p>
+         <a href="" style="text-decoration: none; color: yellow;">Click</a>  
+
+         <!-- inline css -->
+
+         <h1 style="color:aqua;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         border:3px solid grey;
+         margin: 60px;
+         padding:20%;
+         margin-bottom: 10%;"
+        
+         
+         >apple is here</h1>
+
+         <p style="color:brown">be cool</p>
+
+         <!-- Internal css -->
+ 
+         <head>
+            <style>
+            h4 {color:green;}
+            </style>
+         </head>
+         <h1> this is heading</h1>
+
+         <!-- external css -->
+
+         <head>
+            <link rel="stylesheet
+            "href="styles.css">
+
+            <h1>this is laptop</h1>
+
+         <form>
+         
+            <!-- form tag -->
+         <input type ="text">
+         <input type="number">
+         <input type="email">
+         <input type="tel">
+         <input type="password">
+
+         <!-- for naming the box -->
+
+         <lable for="">enter your name</lable>
+         <input type ="text">
+
+
+         <lable for="">phone no</lable>
+         <input type="number">
+
+         <lable for="email id</lable>
+         <input type="email">
+
+         <lable for="">age</lable>
+         <input type="tel">
+
+         <lable for="">password</lable>
+         <input type="password">
+
+         <!-- form creation -->
+
+         <form style="background-color: blue; padding: 2rem;">
+
+            <div>
+                <label for="">Enter your Name </label>
+                <input type="text" required>
+            </div>
+    
+            <div>
+                <label for="">Age</label>
+                <input type="number" required placeholder="Enter your age">
+            </div>
+    
+            <div>
+                <label for="">Email</label>
+                <input type="email" required>
+            </div>
+    
+            <div>
+                <label for="">Phone No</label>
+                <input type="tel" required>
+            </div>
+    
+            <div>
+                <label for="">Password</label>
+                <input type="password" required>
+            </div>
+    
+            <div>
+                <button>Submit</button>
+            </div>
+    
+    
+            <!-- Name -->
+             <!-- Email
+              phone no
+              Address
+              Gender
+              DOB
+              Password
+              
+             
+             -->
+        </form>
+
+        <!-- internal Css -->
+
+
+        <!-- in paragraph writing in form using tag -->
+           <div>
+            <label for="">Enter your Name </label>
+            <textareas cols="30" rows="30">hello</textarea>
+           </div>
+
+           <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello</h1>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolore illo? Laboriosam sunt nulla fugiat, aliquid magni placeat doloribus vel sint distinctio excepturi tenetur qui tempore laudantium repudiandae, iusto accusantium.</p>
+        
+        <img src="images/flower2.jpeg" alt="">
+        <div>
+
+            <button>About me</button>
+        </div>
+    
+    </div>
+
+
+    <style>
+        .container {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            border: 1px solid pink;
+            padding: 1rem;
+            margin: 100px;
+            width: 400px;
+            background-color: lightpink;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .container p {
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+        }
+        .container img{
+            border-radius: 20px;
+        }
+        .container button{
+            background-color: rgb(0, 112, 203);
+            padding: 1rem;
+            border-radius: 10px;
+            border: none;
+            border: 2px solid white;
+            color: white;
+        }
+    </style>
+
+    <!-- internal css -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+</head>
+<body>
+    <!-- Navigation Bar start -->
+    <nav>
+        <div><img src="/images/logo.jpeg" alt=""></div>
+
+        <div class="nav-content">
+            <a href="/simple.html">Home</a>
+            <a href="/rose.html">Product</a>
+            <a href="/form.html">Contact Us</a>
+            <a href="/screen.html">About Us</a>
+        </div>
+        <div>
+            <button>Login</button>
+        </div>
+    </nav>
+    <!-- Navigation bar end -->
+
+    <!-- Styles -->
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav img{
+            height: 70px ;
+        }
+        nav{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            /* flex-direction: column-reverse; */
+            padding: 1rem;
+            background-color: lightseagreen;
+        }
+        .nav-content{
+            font-size: 20px;
+            display: flex;
+            gap: 40px;
+        }
+        .nav-content a{
+            text-decoration: none;
+            color: white;
+
+
+        }
+        nav button{
+            background-color: green;
+            padding: 1rem;
+            width: 100px;
+            border: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- boxing property -->
+
+    <!-- relative -->
+
+    <div class="see">
+        <img src="yo.webp" alt="">
+        <div class="saw">
+            <img src="wolf2.jpg" alt="">
+        </div>
+    </div>
+
+    <style>
+        .see img {
+            width: 300px;
+            height: 290px;
+        }
+        .see{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .saw img {
+            width: 200px;
+            height: 120px;
+        }
+        .saw{
+            position: absolute;
+        }
+
+    </style>
+
+    <!-- fixed property -->
+      <div class="raa"></div>
+        <div class="vaa">
+            hjdgkjgtjoitruuiggerrhbjdbviyyuuioerhjfdmbvky8oeuighvn bmdfjhgvhjdgfhjewhmfbnmr  hjrguigbfmfbjhgriy3ro3uirhjbvmvdglipufeubbeberrujjjhjhsbbhjb
+        </div>
+      
+
+      <style>
+        .raa{
+            border: 5px solid pink;
+            height: 80px;
+            width: 100%;
+            background-color: black;
+            position: sticky;
+            top: 0;
+        }
+        .vaa{
+            height: 600px;
+            font-size: xx-large;
+        
+        }
+      </style>
+
+ 
+</body>
+</html>
+
+    
+</body>
+</html
+
+
+
+
+
+
+
+        
+
+
